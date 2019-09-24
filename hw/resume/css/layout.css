@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Chilanka|Manjari&display=swap');
+
+
+body{background-color: pink;}
+
+#centerName{
+  text-align: center;
+}
+
+#emailBold{
+  font-weight: bold;
+}
+
+#schoolBold{
+  font-weight: bolder;
+}
+
+#backgroundChange{
+  background-color: orange;
+}
+
+#indentBio{
+  text-indent: 5%;
+}
+
+.alias{
+  cursor: alias;
+}
+/* This is the new style tag that we have not learned yet */
+
+.cursive{
+  font-style: oblique;
+}
+
+.italics{
+  font-style: italic;
+}
+
+h1{
+  color: black;
+  font-family: 'Manjari', cursive;
+
+}
+
+h3{
+color: white;
+font-family: 'Chilanka', cursive;
+font-weight: 700; /* Bolder dancing script */
+
+}
+
+
+h3 em{
+  font-family: sans-serif;
+  color: black;
+  text-decoration: underline;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+a:visited{
+  color: blue;
+}
+
+a:hover{
+  background-color: purple;
+  font-style: italic
+}

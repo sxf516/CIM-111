@@ -1,0 +1,150 @@
+body{
+  font-family: sans-serif;
+}
+
+  header{
+    width: 780px;
+    height: auto;
+    margin: 0 auto;
+    /* background-color: lightblue; */
+    text-align: center;
+  }
+
+  header h1{
+    font-size: 50px;
+    color: white;
+  }
+
+  nav{
+    /* background-color: blue; */
+    width: 360px;
+    margin: 0 auto;
+
+    border-width: 0px 0px 5px 0px;
+    border-style: ridge;
+    border-color: white;
+
+  }
+
+  nav ul{
+
+  }
+
+  nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 5px;
+
+
+  }
+
+  nav ul li a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  nav ul li:hover{
+    background-color: gray;
+  }
+
+  #grid1{
+    width: 800px;
+    height: auto;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: 200px;
+    grid-template-columns: 185px 185px 185px 185px;
+    grid-column-gap: 20px;
+
+    background-color: rgba(255,255,255,.75);
+    padding: 10px;
+  }
+  #grid1 img{
+    width: 185px;
+  }
+
+
+
+  #grid2{
+    width: 800px;
+    height: auto;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: 200px;
+    grid-template-columns: 250px 250px 250px;
+    grid-column-gap: 25px;
+    background-color: rgba(255,255,255,.75);
+    padding: 10px;
+
+  }
+  #grid2 img{
+    width: 250px;
+  }
+
+  #grid3{
+    width: 800px;
+    height: auto;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: 275px;
+    grid-template-columns: 250px 250px 250px;
+    grid-column-gap: 25px;
+    background-color: rgba(255,255,255,.75);
+    padding: 5px;
+  }
+  #grid3 img{
+    width: 200px;
+  }
+
+  #grid4{
+    width: 800px;
+    height: auto;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: 375px;
+    grid-template-columns: 250px 300px 200px;
+    grid-column-gap: 10px;
+    background-color: rgba(255,255,255,.75);
+    padding: 5px;
+  }
+
+  #grid4 img{
+    width: 300px;
+}
+
+  main{
+    width: 800px;
+    height: auto;
+    margin: 0 auto;
+
+  }
+
+@import url('https://fonts.googleapis.com/css?family=Chilanka|Manjari&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
+
+h2{
+color: black;
+font-family: 'Manjari', cursive;
+
+}
+
+h3{
+color: white;
+font-family: 'Roboto';
+font-weight: 700;
+
+}
+
+body{background-color: teal;}
+
+  .centerText{
+    text-align: center;
+  }
+
+  #mapImage{
+width: 800px;
+height: auto;
+display: block;
+margin: 0 auto;
+  }

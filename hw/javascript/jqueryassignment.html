@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>How to Make Chocolate Chip Cookies</title>
+
+    <link type="text/css" rel="stylesheet" href="css/lightgallery.css" />
+
+
+    <style>
+
+    #lightgallery img{
+      width: 225px;
+    }
+
+    h1{
+      color: brown;
+      font-family: monospace;
+      text-align: center;
+      font-weight: bolder;
+    }
+
+    #centerBio{
+      text-align: center;
+      font-family: sans-serif;
+    }
+
+    h2{
+      font-family: monospace;
+      text-decoration: underline;
+    }
+
+    h3{
+      font-family: monospace;
+      text-decoration: underline;
+    }
+
+    li{
+      font-family: sans-serif;
+
+    }
+
+
+    </style>
+
+  </head>
+  <body>
+    <header>
+      <h1 id="changeBackground">How to Make Chocolate Chip Cookies</h1>
+      <p id="centerBio">Making chocolate is a perfect way to bond with your family during the holidays or at any time of the year! The recipe below is very simple and super fun. The whole family can enjoy it! Rumor has it that this chocolate chip cookie recipe is one of Santa's favorites, so your kids should be extatic to bake up a batch of these!</p>
+      </header>
+    <section>
+        <h2 id="words">Ingredients</h2>
+        <ul>
+          <li>2 cups butter, melted</li>
+          <li>2 cups brown sugar, packed</li>
+          <li>2 cups granulated sugar</li>
+          <li>4 large eggs</li>
+          <li>1 tablespoon vanilla extract</li>
+          <li>5 cups all-purpose flour</li>
+          <li>2 teasponnd baking powder</li>
+          <li>4 cups chocolate chips</li>
+        </ul>
+    </section>
+
+    <section>
+      <h2 id="section2toggle">Preparation Steps</h2>
+      <ol id="toggleInstructions">
+        <li>Preheat oven to 375 degrees</li>
+        <li>In a large bowl, whisk togetehr the brown sugar, granulated suger, and melted butter, until evenlu combined and light in color.</li>
+        <li>Add in the eggs and vanilla, mixing until smooth.</li>
+        <li>Add the flour and baking powder, folding the mixture until it forms a smooth dough.</li>
+        <li>Fold in the chocolate chips until evenly combined.</li>
+        <li>Using an ice cream scoop, scoop 6 balls of dough onto a baking tray lined with parchment paper.</li>
+        <li>Bake for 12 minutes, then serve!</li>
+        <li>To save cookie dough for later use, scoop the dough into balls and place them side-by-side on a baking tray lined with parchment paper.</li>
+        <li>Wrap the tray with cling wrap, then freeze for up to a month</li>
+        <li>To bake the frozen dough balls, remove desired number from the tray and bake in a preheated oven for 15 minutes at 375 degrees.</li>
+        <li>Enjoy!</li>
+      </ol>
+    </section>
+
+    <section>
+      <h3 id="showVid">Click to view video</h3>
+      <p id="vid"></p>
+    </section>
+
+    <div id="lightgallery">
+  <a href="https://farm3.staticflickr.com/2833/10431706394_ecb806aff1.jpg">
+    <img src="https://farm3.staticflickr.com/2833/10431706394_ecb806aff1.jpg" />
+  </a>
+
+  <a href="https://live.staticflickr.com/5502/10431877003_527dffd48b_m.jpg">
+      <img src="https://live.staticflickr.com/5502/10431877003_527dffd48b_m.jpg" />
+  </a>
+
+  <a href="https://live.staticflickr.com/5161/5334517420_1aaf5d0caa_m.jpg">
+      <img src="https://live.staticflickr.com/5161/5334517420_1aaf5d0caa_m.jpg" />
+  </a>
+
+  <a href="https://live.staticflickr.com/7390/10431699464_ab1d429475.jpg">
+      <img src="https://live.staticflickr.com/7390/10431699464_ab1d429475.jpg" />
+  </a>
+
+  <a href="https://live.staticflickr.com/5010/5275761125_7eea2da84a_b.jpg">
+      <img src="https://live.staticflickr.com/5010/5275761125_7eea2da84a_b.jpg" />
+  </a>
+
+</div>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script>
+
+    <script src="js/lightgallery.js"></script>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+
+        $("#lightgallery").lightGallery();
+
+
+        $("#toggleInstructions").hide();
+
+        $("#changeBackground").click(function(){
+
+          $("body").css("background-color", "orange");
+
+        });
+
+        $("#section2toggle").click(function(){
+
+          $("#toggleInstructions").slideToggle();
+
+        });
+
+        $("#showVid").click(function(){
+
+          $("#vid").html('<iframe width="560" height="315" src="https://www.youtube.com/embed/3vUtRRZG0xY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>');
+
+        });
+
+
+
+        });
+
+
+    </script>
+  </body>
+</html>

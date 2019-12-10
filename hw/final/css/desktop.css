@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Lilita+One&display=swap');
+
 
 header{
   background-image: url('../images/opera.jpg');
@@ -12,8 +14,8 @@ header{
 
 h1{
   text-align: center;
-
-
+  color: blue;
+  font-family: 'Lilita One', bold;
 
 }
 nav{
@@ -72,10 +74,14 @@ main{
   margin-bottom: 60px;
 }
 
+#grid1 img{
+  padding: 1em;
+}
+
 #grid2{
   display: grid;
   grid-template-rows: 1fr;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr .5fr 1fr;
   margin-bottom: 60px;
 }
 
@@ -85,7 +91,11 @@ main{
   grid-template-rows: 1fr;
   grid-template-columns: 1fr 1fr 1fr;
   margin-bottom: 60px;
+
+
+
 }
+
 
 
 h2{

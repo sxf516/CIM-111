@@ -1,0 +1,93 @@
+
+header{
+  background-image: url('../images/opera.jpg');
+  background-size: cover;
+  background-position: center;
+  /* background-color: blue; */
+  height: 200px;
+
+  padding-top: 150px;
+  color: white;
+}
+
+h1{
+  text-align: center;
+
+
+
+}
+nav{
+  width: 675px;
+  margin: 0 auto;
+
+  border-width: 5px;
+  border-style: solid;
+  border-color: black;
+  background-color: white;
+
+}
+
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  margin-right: 5px;
+
+}
+
+nav ul li a{
+  color: black;
+  text-decoration: none;
+  text-align: center;
+}
+
+nav ul li:hover{
+  background-color: blue;
+}
+
+main{
+  background-color: lightblue;
+    width: 920px;
+    /* height: 100px; */
+    height: auto;
+    /* height: auto; allows the container to grow depending on content */
+    padding: 20px; /* adjusts all sides*/
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    border-width: 5px; /* adds border on all sides */
+    border-style: solid;
+    border-color: blue;
+    margin-top: 60px;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-left: auto;
+
+}
+
+#grid1{
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 60px;
+}
+
+#grid2{
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 60px;
+}
+
+
+#grid3{
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 60px;
+}
+
+
+h2{
+  font-weight: bolder;
+}
